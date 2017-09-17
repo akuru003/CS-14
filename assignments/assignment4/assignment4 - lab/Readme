@@ -1,0 +1,16 @@
+Name: Abraham Kuruvila
+Sid: 861150563
+Netid: akuru003 
+email: akuru003@ucr.edu
+
+CS 14 - Assignment 4
+
+The program takes in a command line argument the input file name and will create 
+
+NOTE********* 
+Make file runs the program as "./a.out input1.txt"  so if testing with a different file name, the make file or the file
+used for testing needs to be name changed appropriately. 
+
+When downloading the .csv file, my computer is forcing it into an excel file, I dont think this matters as all you need
+in the same directory is the Makefile, main.cpp, and the input1.txt as the .csv and .out file should be created when the 
+program is run. 

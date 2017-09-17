@@ -1,0 +1,14 @@
+Name: Abraham Kuruvila
+Sid: 861150563
+Netid: akuru003 
+email: akuru003@ucr.edu
+
+CS 14 - Assignment 2
+
+The program starts by asking for the needed string consisting of the sign of the first number
+followed by the number and than the operator followed by the second sign followed by the second number.
+The program is expecting an input like "1234+1234" which will translate into Num1 sign postive, Num1 = 234, operator is +,
+Num2 sign postive, Num2 = 234.
+The program will create 3 Whopper objects, A,B,and C, and than it will do the proper operation. The program loops
+so the user can run it as many times as wanted. All the operations are working and they are only limited in terms of memory
+as we can only have an X amount of nodes in our vector. 

@@ -1,0 +1,23 @@
+Name: Abraham Kuruvila
+Sid: 861150563
+Netid: akuru003 
+email: akuru003@ucr.edu
+
+CS 14 - Assignment 6 Part 2
+
+The program takes in a command line argument of ./a.out followed by a text file name like input.txt. The program then reads in the
+information from the text file about the graph. The program is expecting the input file to have in int type, the number of vertexs followed
+by the number of edges. The program then reads in the vertexs and sets the source and sink properly. The program then reads in the edges. 
+The program has two classes, one for the vertexs and one for the edges. After reading the information in, the program will navigate through
+the graph and record the path. Then the program will remove the unnecessary vertexs from the vector.The program then will output the flow
+value along with the path of the graph in an output file that is generated from the name of the input file. The program will then run the 
+algorithm again and will keep outputting the path and flow so long as the flow isn't zero. Each different flow path is outputted along with the 
+corresponding flow, and then the program outputs the total flowrate after all the iterations. The program updates the flow after each iteration 
+in the graph. After this,the program outputs the different path flowrates that make up the total flowrate. I tested with the only test case 
+given, and the program works. Except for the number of vertexs and number of edges at the start of the input file, the program uses strings
+so that vertexs can be called anything. I also implemented the priority queue used when navigating the graph. The first vertex in the input
+file is considered the smallest while the last vertex entered is considered the biggest. 
+
+NOTE**************** 
+Make file runs the program as "./a.out input.txt"  so if testing with a different file name, the make file or the file
+used for testing needs to be name changed appropriately.

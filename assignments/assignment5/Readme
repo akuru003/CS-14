@@ -1,0 +1,35 @@
+Name: Abraham Kuruvila
+Sid: 861150563
+Netid: akuru003 
+email: akuru003@ucr.edu
+
+CS 14 - Assignment 5
+
+The program takes in a command line argument of ./a.out followed by a -1 or -2 to specify which dictionary to use,
+followed by the type of hash you want (chain/probe), followed by the input file you want to check. The program will load
+the appropriate dictionary into a hash table, then it reads does an output to the .stats file sending information about
+the table into that file. The input for chaining is the size of a list in the hash table, followed by how many
+other lists(inclusive) had that same size. The output for probing is the number of collisions followed by how many
+other indexes in the hash table had that same number of collisions. The program then will load the input file from the user
+and checks it against the hash table. The words not in the hash are outputted to the .out file. The user can pass in a the
+input file name in the command line argument and the program automatically makes a .out and .stats file in the same 
+directory. The program reads in by line breaking up the line by the spaces in between words. The program also does make
+any numbers in the word to spaces and makes any upper case words into lower case form. The size of the hash is resized by
+the HashChain and HashProbe classes as given by the source code online. This means that in cases like chaining, the .stats
+file reports an excess of lists that have size of zero because the class rehashes into a new table. With the testing that
+I did, I was able to verify that the .out file was right with the tests I did, I cannot verify that the .stats file is 100%
+correct as we didn't have any test cases with answers. The progam is using the professor's hash function with the source code
+hash function commented out.
+
+
+NOTE**************** 
+Make file runs the program as "./a.out -1 -chain input1.txt"  so if testing with a different file name, the make file or the file
+used for testing needs to be name changed appropriately.
+
+In the make file, I gave names to test each case for chain/probe with dictionary 1 or 2. 
+
+Ex. make chainsimple   ::  executes  ./a.out -1 -chain simple.txt
+Ex. make chainspell    ::  executes  ./a.out -1 -chain iSpell.txt
+Ex. make probesimple   ::  executes  ./a.out -2 -probe simple.txt
+Ex. make probespell    ::  executes  ./a.out -2 -probe iSpell.txt
+

@@ -1,0 +1,26 @@
+Name: Abraham Kuruvila
+Sid: 861150563
+Netid: akuru003 
+email: akuru003@ucr.edu
+
+CS 14 - Assignment 1
+
+The program starts by asking for the M number as well as two initial starting numbers
+if the user wants. It also allows the user to remove only once or all pairs. 
+The program will call the necessary functions needed to print the repeated sequence. 
+The number of appearances of each number in the sequence will also be outputted. 
+The program will then output a list of all possible pairs based on the m number 
+and will start to remove each pair one by one until the list is empty if the user
+asked to remove all pairs. The program will remove as many pairs 
+using the initial conditions given by the user, and then it will pick a pair and
+use that pair's numbers as the initial starting numbers and run a fibonaci 
+sequence generating a subsquence and removing even more pairs. This process
+is repeated until the list is all cleared. If the list size is too small that a 
+fibonaci sequence cannot be detected, the program will return no fibonaci 
+sequence. This should not be a problem as I made sure small M values had bigger
+vector sizes so that a repeated sequence could be detected.The program loops 
+allowing the user to rerun the program should they want to.
+
+NOTE***
+Any M value of M < 50 will be fine. Anything 50 - 100 will take a few seconds(20ish).
+Any M value over 100 will take a few minutes to complete.

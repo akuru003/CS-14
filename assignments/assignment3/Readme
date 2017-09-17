@@ -1,0 +1,24 @@
+Name: Abraham Kuruvila
+Sid: 861150563
+Netid: akuru003 
+email: akuru003@ucr.edu
+
+CS 14 - Assignment 3
+
+The program takes in a command line argument the input file name and will create two output files of .out and .csv.
+The first two maxSum1 and maxSub2 algorithms should be working 100% correctly. Testing with the sample cases, the answers 
+are all correct. The maxSum4 is almost fully working. From the test cases, it works for all of them except two. The last 
+algorithm maxSum3, I was not able to fully get working. It works for a few cases,but it's not consistent at all. The program
+will output in the .out file a 1 for valid or 0 for invalid sequence followed by the answer the algorithm found for each
+algorithm. In the .csv file, the size of the vector is outputted followed by the minSeq, followed by the ansValid for all 
+algorithms followed by the totalTicks for each algorithm. For the maxSum3, for the graphs in the report, since I was 
+not able to get it close to fully functioning, I used the intial code given to see the totalTicks on just minSeq of 0 
+and created a graph from that. 
+
+NOTE********* 
+Make file runs the program as "./a.out input1.txt"  so if testing with a different file name, the make file or the file
+used for testing needs to be name changed appropriately. 
+
+When downloading the .csv file, my computer is forcing it into an excel file, I dont think this matters as all you need
+in the same directory is the Makefile, main.cpp, and the input1.txt as the .csv and .out file should be created when the 
+program is run. 

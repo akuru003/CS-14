@@ -1,0 +1,8 @@
+Flowrate: 5
+Path: 1 4 6 3 5 7 
+Flowrate: 3
+Path: 1 2 5 3 6 7 
+Maxflow: 8
+Path 1 flow: 3
+Path 2 flow: 3
+Path 3 flow: 2

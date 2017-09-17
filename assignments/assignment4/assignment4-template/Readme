@@ -1,0 +1,18 @@
+Name: Abraham Kuruvila
+Sid: 861150563
+Netid: akuru003 
+email: akuru003@ucr.edu
+
+CS 14 - Assignment 4
+
+The program takes in a command line argument of an input file and will create a .out file with the same name.
+The program uses the stl list to store the integers or fractions in the input file.The program puts them in a 
+binary tree and uses the tree to properly sort the data. Once the data is sorted, the date is outputted to .out
+file in the proper format. The fraction class has its own header and cpp file while the BinarySearchTree class is
+written in the main cpp file. The BinarySearchTree class was created with templates, and has template specialization 
+to deal with the Fraction class. I tested with many inputs and repetitions, and the ouput came out correctly. The 
+submitted input and .out file contain the test cases given to use for testing with a few other tests. 
+
+NOTE*********** 
+Make file runs the program as "./a.out input1.txt" so if testing with a different file name, the make file or the file
+used for testing needs to be name changed appropriately. 
